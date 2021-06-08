@@ -30,6 +30,6 @@ public class AbsoluteLayoutWindow {
 //        mainPanel.add(label);
 //        label.setBorder(new EtchedBorder());
 
-        frame.setVisible(true);
+//        frame.setVisible(true);
     }
 }
