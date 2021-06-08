@@ -32,8 +32,9 @@ public class MyWindow extends JFrame {
         label.setBounds(50,120,200,80);
         mainPanel.add(label);
         label.setBorder(new EtchedBorder());
-
-
+        
+        button.addActionListener(new MyButtonHandler(field));
+        
         setVisible(true);
     }
 }
