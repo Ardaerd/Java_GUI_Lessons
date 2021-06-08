@@ -2,6 +2,7 @@ package GUI_WithSeveralIdenticalFrame;
 
 import javax.swing.*;
 import javax.swing.border.EtchedBorder;
+import java.awt.event.ActionListener;
 
 public class MyWindow extends JFrame {
 
@@ -31,6 +32,7 @@ public class MyWindow extends JFrame {
         label.setBounds(50,120,200,80);
         mainPanel.add(label);
         label.setBorder(new EtchedBorder());
+
 
         setVisible(true);
     }
