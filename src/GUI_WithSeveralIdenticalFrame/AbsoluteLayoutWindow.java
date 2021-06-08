@@ -4,11 +4,14 @@ import javax.swing.*;
 import javax.swing.border.EtchedBorder;
 import java.awt.*;
 
-public class AbsouluteLayoutWindow {
+public class AbsoluteLayoutWindow {
     public static void main(String[] args) {
-        JFrame frame = new JFrame();
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400,400);
+        JFrame frame = new MyWindow();
+        frame.setLocation(0,0);
+
+//        JFrame frame = new JFrame();
+//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        frame.setSize(400,400);
 
 //        JPanel mainPanel = new JPanel();
 //        frame.add(mainPanel);
