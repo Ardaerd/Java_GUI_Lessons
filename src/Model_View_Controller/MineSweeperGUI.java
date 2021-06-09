@@ -5,6 +5,8 @@ import java.awt.*;
 
 public class MineSweeperGUI extends JPanel {
 
+    // The visualization will be implemented in MineSweeperGUI Class
+
     public MineSweeperGUI (int numRows, int numCols, int numMines) {
 
         setLayout(new GridLayout(numRows,numCols));
