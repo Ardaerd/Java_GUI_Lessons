@@ -14,7 +14,7 @@ public class MineGrid {
     }
 
     // Check it, whether it is contain a mine or not
-    private boolean isMine(int i, int j) {
+    public boolean isMine(int i, int j) {
         return mineInformation[i][j] == MINE;
     }
 
@@ -75,5 +75,10 @@ public class MineGrid {
                     mineInformation[i][j] = 0;
                 }
             }
+    }
+
+    // get cell's content in order to using ButtonHandler class
+    public int getCellContent(int i, int j) {
+        return mineInformation[i][j];
     }
 }
